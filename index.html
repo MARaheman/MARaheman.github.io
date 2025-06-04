@@ -1,30 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About - Raheman Mohammed Abdul</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 16px; background: #fff; color: #222; }
-    .profile-img { width: 140px; border-radius: 50%; margin: 0 auto 20px auto; display: block; }
-    h1 { text-align: center; }
-    .social { text-align: center; margin-top: 20px; }
-    .social a { margin: 0 10px; color: #0366d6; text-decoration: none; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systems Engineer | Azure, M365, PowerShell & AI Expert</title>
+    <meta name="description" content="Profile of a Systems Engineer with expertise in Azure, M365, PowerShell, C#.NET, and AI.">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1f2937;
+            --secondary: #2563eb;
+            --accent: #e2e8f0;
+            --white: #fff;
+            --gray: #6b7280;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: var(--accent);
+            color: var(--primary);
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: var(--white);
+            box-shadow: 0 4px 24px rgba(31,41,55,0.10), 0 1.5px 4px rgba(37,99,235,0.04);
+            border-radius: 12px;
+            padding: 40px 40px 30px 40px;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid var(--accent);
+            margin-bottom: 30px;
+            padding-bottom: 18px;
+        }
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: var(--accent);
+            object-fit: cover;
+            border: 3px solid var(--secondary);
+            margin-right: 32px;
+        }
+        .intro h1 {
+            margin: 0 0 8px 0;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--secondary);
+        }
+        .intro h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: var(--gray);
+        }
+        .intro p {
+            margin: 0;
+        }
+        main {
+            margin-top: 30px;
+        }
+        .section-title {
+            color: var(--secondary);
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            border-left: 4px solid var(--secondary);
+            padding-left: 10px;
+        }
+        .skills-list, .exp-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .skills-list li, .exp-list li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        .skills-list {
+            columns: 2 270px;
+            column-gap: 40px;
+        }
+        .exp-title {
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .exp-role {
+            font-size: 1rem;
+            color: var(--gray);
+        }
+        .badge {
+            display: inline-block;
+            background: var(--secondary);
+            color: var(--white);
+            font-size: 0.9em;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 6px;
+            margin-right: 8px;
+            margin-bottom: 6px;
+        }
+        .contact {
+            margin-top: 28px;
+            background: var(--accent);
+            border-radius: 8px;
+            padding: 16px 20px;
+        }
+        .contact a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 16px; }
+            header { flex-direction: column; align-items: flex-start; }
+            .avatar { margin: 0 0 16px 0; }
+        }
+    </style>
 </head>
 <body>
-  <img src="YOUR_PROFILE_IMAGE_URL" alt="Raheman" class="profile-img">
-  <h1>Raheman Mohammed Abdul</h1>
-  <p>
-    <!-- Write about yourself here, e.g.: -->
-    Hi, I'm Your Raheman. I’m passionate about Azure Automation, M365,  Artificial Intelligence, and sharing knowledge.  
-    <!-- Add more details about your background, interests, etc. -->
-  </p>
-  <div class="social">
-    <!-- Update these links to your actual profiles -->
-    <a href="https://github.com/MARaheman" target="_blank">GitHub</a>
-    <a href="mailto:md_abdul_rahman3001@yahoo.com">Email</a>
-    <!-- Add more links as needed -->
-  </div>
+    <div class="container">
+        <header>
+            <img src="https://ui-avatars.com/api/?name=Systems+Engineer&background=2563eb&color=fff&size=220" alt="Profile Picture" class="avatar">
+            <div class="intro">
+                <h1>Systems Engineer</h1>
+                <h2>Azure & M365 Specialist | PowerShell Guru | C#.NET & AI Developer</h2>
+                <p>
+                    Passionate and results-driven IT professional with proven expertise in designing, implementing, and automating solutions using Microsoft Azure, M365, PowerShell, C#.NET, and AI technologies. Recognized for delivering robust automation, secure cloud solutions, and seamless digital workplace experiences.
+                </p>
+            </div>
+        </header>
+        <main>
+            <div>
+                <div class="section-title">Technical Skills</div>
+                <ul class="skills-list">
+                    <li><span class="badge">Azure</span> Infrastructure & Identity Management</li>
+                    <li><span class="badge">Microsoft 365</span> Administration & Security</li>
+                    <li><span class="badge">PowerShell</span> Advanced Scripting & Automation</li>
+                    <li><span class="badge">C#.NET</span> Application Development</li>
+                    <li><span class="badge">AI</span> Integration & Solution Design</li>
+                    <li>Azure DevOps / CI-CD</li>
+                    <li>Active Directory, AAD Connect</li>
+                    <li>Exchange Online, Teams, SharePoint</li>
+                    <li>API Development & Integration</li>
+                    <li>REST, Graph API</li>
+                    <li>Security, Compliance & Modern Workplace</li>
+                    <li>Process Automation & Workflow Orchestration</li>
+                </ul>
+            </div>
+            <div>
+                <div class="section-title">Professional Experience</div>
+                <ul class="exp-list">
+                    <li>
+                        <div class="exp-title">Systems Engineer</div>
+                        <div class="exp-role">Specializing in Microsoft Azure, M365, PowerShell, and Automation</div>
+                        <ul>
+                            <li>Designed and implemented secure, highly available Azure solutions for enterprise clients.</li>
+                            <li>Automated complex operational tasks using advanced PowerShell scripting, reducing manual effort and errors.</li>
+                            <li>Led migration initiatives for Exchange Online, Teams, and SharePoint in hybrid and cloud-only environments.</li>
+                            <li>Developed custom C#.NET tools to integrate business workflows with Microsoft Graph and REST APIs.</li>
+                            <li>Architected AI-powered solutions to streamline IT support and enhance user productivity.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="section-title">Key Projects</div>
+                <ul class="exp-list">
+                    <li>
+                        <b>PowerShell Automation Suite</b>: Developed an enterprise toolkit to automate user provisioning, license management, and compliance reporting for M365 and Azure.
+                    </li>
+                    <li>
+                        <b>AI-Driven IT Support Bot</b>: Built an intelligent chatbot using Azure AI and C# for automated resolution of common IT requests, integrating with ServiceNow and Microsoft Teams.
+                    </li>
+                    <li>
+                        <b>Cloud Modernization</b>: Led cloud migration projects, optimizing cost and performance while ensuring robust security and compliance.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="section-title">Certifications</div>
+                <ul class="skills-list">
+                    <li>Microsoft Certified: Azure Administrator Associate</li>
+                    <li>Microsoft 365 Certified: Enterprise Administrator Expert</li>
+                    <li>Certified PowerShell Professional</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <b>Contact:</b> 
+                <ul style="list-style:none;padding:0;margin:0;">
+                    <li>Email: <a href="mailto:your.email@domain.com">your.email@domain.com</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">linkedin.com/in/yourprofile</a></li>
+                    <li>GitHub: <a href="https://github.com/MARaheman" target="_blank">github.com/MARaheman</a></li>
+                </ul>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
